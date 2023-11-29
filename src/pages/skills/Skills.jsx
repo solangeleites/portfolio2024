@@ -84,7 +84,7 @@ const Skills = () => {
                 <SwiperSlide>
                   <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/php_oenlf2.svg" />
-                    <Paragraph>PHP</Paragraph>
+                    <Paragraph>Php</Paragraph>
                   </ContainerRowSkills2>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -159,7 +159,7 @@ const Skills = () => {
                 <SwiperSlide>
                 <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/php_oenlf2.svg" />
-                    <Paragraph>PHP</Paragraph>
+                    <Paragraph>Php</Paragraph>
                   </ContainerRowSkills2>
                 </SwiperSlide>
                 <SwiperSlide>
