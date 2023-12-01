@@ -4,12 +4,12 @@ import Github from '../UI/github/Github'
 import Deploy from '../UI/deploy/Deploy'
 
 
-const CardEach = () => {
+const CardEach = ({id,img, title, github, deploy, tech, paragraph, rol, duration}) => {
   return (
     <Card style={{ boxShadow: '0px 0px 5px 0px #e4e0c8', border:'none' }}>
     <img
-      src="https://blush.design/api/download?shareUri=HeUTuvAqVcA8P2jI&c=Skin_0%7Effdbb4&w=800&h=800&fm=png"
-      style={{ height: '250px' }}
+      src={img} alt={title}
+      style={{ height: '300px' }}
     />
     <CardContainer2>
       <div
@@ -19,21 +19,24 @@ const CardEach = () => {
           width: '100%',
         }}
       >
-        <Title>Proyecto 1</Title>
+        <Title>{title}</Title>
         <div style={{ display: 'flex', gap: '25px', width: '200px' }}>
-          <Github />
-          <Deploy />
+
+          <Github href={github} />
+
+
+
+<Deploy href={deploy}/>
+
+
+
         </div>
       </div>
       <Subtitle>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-        distinctio!
+        Tecnologias: {tech}
       </Subtitle>
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-        accusamus veritatis autem illo, natus quo delectus incidunt optio
-        placeat consequuntur perferendis aperiam. Saepe necessitatibus ea
-        perspiciatis vo?
+        {paragraph}
       </Paragraph>
       <div
         style={{
@@ -44,12 +47,12 @@ const CardEach = () => {
       >
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <Subtitle>Rol:</Subtitle>
-          <Paragraph>Fullstack</Paragraph>
+          <Paragraph>{rol}</Paragraph>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <Subtitle>Duración:</Subtitle>
-          <Paragraph>2 meses</Paragraph>
+          <Paragraph>{duration}</Paragraph>
         </div>
       </div>
 

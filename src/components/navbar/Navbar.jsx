@@ -19,7 +19,7 @@ const Navbar = () => {
       <LinksItems to="skills" smooth={true} duration={500}>
         Skills
       </LinksItems>
-      <LinksItems to="projects" smooth={true} duration={500}>
+      <LinksItems to="proyectos" smooth={true} duration={500}>
         Projects
       </LinksItems>
       <LinksItems to="contact" smooth={true} duration={500}>

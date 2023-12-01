@@ -4,27 +4,23 @@ import {
   Title,
   Subtitle,
   CardContainer,
-  Card,
-
 } from './ProjectsStyled';
-import Github from '../../components/UI/github/Github';
-import Deploy from '../../components/UI/deploy/Deploy';
 import CardEach from '../../components/card/CardEach';
 
+import { Projects as Project } from '../../data/projects';
+
 const Projects = () => {
+  const data = Project;
   return (
-    <SecondContainer id="projects">
+    <SecondContainer id="proyectos">
       <Title>Projects</Title>
       <Subtitle>
         Estos son algunos de los proyectos que he estado realizando
       </Subtitle>
       <CardContainer>
-        <CardEach/>
-        <CardEach/>
-        <CardEach/>
-        <CardEach/>
-        <CardEach/>
-        <CardEach/>
+        {data && data.map((Project)=>(
+        <CardEach key={Project.id} {...Project}/>
+        ))}
       </CardContainer>
     </SecondContainer>
   );

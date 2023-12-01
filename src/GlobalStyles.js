@@ -16,7 +16,6 @@ export const GlobalStyles = createGlobalStyle`
         background-color: var(--beige);
         color: var(--verde);
         scroll-behavior: smooth;
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
     }
     html {
           scroll-behavior: smooth;
