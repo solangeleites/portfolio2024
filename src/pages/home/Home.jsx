@@ -34,7 +34,7 @@ const Home = () => {
   <ParagraphAboutMe>Mi enfoque es crecer profesionalmente de manera continua y amoldarme a entornos que cambian rápidamente.</ParagraphAboutMe>
   <ParagraphAboutMe>Aspiro a hacer una diferencia tangible en cada proyecto, buscando constantemente la mejora continua.</ParagraphAboutMe>
 
-  <BtoDown href="../../assets/solange_leites_galvan_cv_noviembre.pdf" alt="Solange Leites Galván CV" download=""
+  <BtoDown href="../../assets/CVSolangeLeitesGalvan.pdf" alt="Solange Leites Galván CV" download=""
           >Descargar mi CV</BtoDown>
 </Container>
 
