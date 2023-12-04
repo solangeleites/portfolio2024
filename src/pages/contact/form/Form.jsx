@@ -19,7 +19,7 @@ const Form = () => {
     } else if (msg.length === 0){
       alert('El campo mensaje es obligatorio');
     } else {
-    const url = "http://localhost/backendportofolio/contact.php";
+    const url = "https://backendsolangeport.000webhostapp.com/";
 
     let data = new FormData();
     data.append("name", name);
