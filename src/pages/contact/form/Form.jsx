@@ -34,9 +34,10 @@ const Form = () => {
       setEmail('');
       setMsg('');
     })
-      .catch(() => alert("Error al enviar el mensaje"));
-    }
-  }
+.catch(error => {
+    console.error("Error al enviar el mensaje:", error.response.data);
+    alert("Error al enviar el mensaje. Consulta la consola para más detalles.");    }
+    );
 
 
   return (
