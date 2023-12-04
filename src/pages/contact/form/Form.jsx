@@ -37,7 +37,6 @@ const Form = () => {
     })
     .catch(error => {
       console.error("Error al enviar el mensaje:", error.response.data);
-      alert("Error. Consulta la consola para más detalles.");
     });
   }
 }
