@@ -28,6 +28,18 @@ export const LinkContainer = styled.div`
   width: 500px;
 
   ${mobile}{
-    display: none;
+    ${tablet} {
+      flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0;
+    border: 1px solid var(--oliva);
+    border-top: none;
+    height: calc(100vw - 60px);
+    z-index: 5;
+    transition: all 0.5s ease-in-out;
+    transform: ${(props) =>
+      props.isOpen ? 'translateX(0%)' : 'translateX(200%)'};
   }
-`;
+}`;

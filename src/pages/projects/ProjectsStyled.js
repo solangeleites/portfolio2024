@@ -145,7 +145,7 @@ export const ContainerButtonDeployAndGithub = styled.div`
 export const ContainerRolAndDuration = styled.div`
   display: flex;
   width: 350px;
-  justify-content: center;
+  justify-content: space-between;
 
   ${mobile} {
     display: flex;

@@ -2,16 +2,19 @@ import React from 'react';
 import { NavbarContainer, Logo, LinkContainer } from './NavbarStyled';
 import LinksItems from '../links/LinksItems';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import MenuToggle from '../menuToggle/MenuToggle';
+import { useContext } from 'react';
+import { MenuContext } from '../../context/MenuContext';
 
 
 const Navbar = () => {
-
+  const ctx = useContext(MenuContext);
   return (
 
     <NavbarContainer >
     <Logo onClick={() => scroll.scrollToTop()} src='https://res.cloudinary.com/dgyubvlec/image/upload/v1701263592/am_tgsigg.png'/>
       
-    <LinkContainer>
+    <LinkContainer  isOpen={ctx.isMenuOpen}>
 
       <LinksItems to="about" smooth={true} duration={500}>
         About me
@@ -26,6 +29,7 @@ const Navbar = () => {
         Contact
       </LinksItems>
     </LinkContainer>
+    <MenuToggle />
   </NavbarContainer>
   );
 };

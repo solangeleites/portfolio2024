@@ -13,6 +13,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Playfair Display', serif;
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
+
         background-color: var(--beige);
         color: var(--verde);
         scroll-behavior: smooth;
