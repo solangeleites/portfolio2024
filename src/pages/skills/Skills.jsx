@@ -23,7 +23,7 @@ const Skills = () => {
   const data = SkillsFront;
   return (
     <SecondContainerSkills id="skills" >
-      <Title style={{ fontSize: '30px' }}>Mis Skills</Title>
+      <Title>Mis skills</Title>
       <ContainerRowStyled>
         <ContainerColumn>
           <Title>Frontend</Title>

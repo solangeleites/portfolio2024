@@ -13,7 +13,7 @@ const Projects = () => {
   const data = Proyectos;
   return (
     <SecondContainer id="proyectos" >
-      <Title>Projects</Title>
+      <Title >Mis proyectos</Title>
       <Subtitle>
         Estos son algunos de los proyectos que he estado realizando
       </Subtitle>

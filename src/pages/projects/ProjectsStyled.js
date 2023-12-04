@@ -24,7 +24,8 @@ export const SecondContainerSkills = styled.div`
   }
 `;
 export const Title = styled.h2`
-  font-weight: bold;
+     font-weight: bold;
+    font-size: 25px;
   font-family: 'Raleway', sans-serif;
 
   ${mobile} {
@@ -34,6 +35,7 @@ export const Title = styled.h2`
 `;
 export const Subtitle = styled.h4`
   font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   ${mobile} {
     font-size: 16px;
     font-weight: 500;

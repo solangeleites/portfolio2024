@@ -69,7 +69,7 @@ export const Paragraph = styled.p`
   }
 `;
 export const Title = styled.h3`
+    font-weight: bold;
+    font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
 `;
