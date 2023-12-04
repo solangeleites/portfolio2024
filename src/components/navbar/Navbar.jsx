@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
 
-    <NavbarContainer>
+    <NavbarContainer >
     <Logo onClick={() => scroll.scrollToTop()} src='https://res.cloudinary.com/dgyubvlec/image/upload/v1701263592/am_tgsigg.png'/>
       
     <LinkContainer>

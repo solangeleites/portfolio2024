@@ -41,17 +41,28 @@ export const Paragraph = styled.p`
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 20px;
+  
 `;
 export const Name = styled.h1`
 font-family: 'Poppins', sans-serif;
 font-weight: 900;
 font-size: 40px;
 color: var(--oliva);
+${mobile} {
+  font-size: 30px;
+  font-weight: 900;
+}
 `;
+
 export const ParagraphAboutMe = styled.p`
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 18px;
+  ${mobile} {
+    font-size: 16px;
+    font-weight: 500;
+    width: 325px;
+  }
 `
 
 
@@ -87,7 +98,7 @@ export const Container = styled.div`
 
   ${mobile} {
     padding: 0 20px;
-    width: 400px;
+    width: 370px;
   }
 
 `;

@@ -12,7 +12,7 @@ import { Proyectos } from '../../data/Proyectos';
 const Projects = () => {
   const data = Proyectos;
   return (
-    <SecondContainer id="proyectos">
+    <SecondContainer id="proyectos" >
       <Title>Projects</Title>
       <Subtitle>
         Estos son algunos de los proyectos que he estado realizando

@@ -37,7 +37,7 @@ export const Subtitle = styled.h4`
   ${mobile} {
     font-size: 16px;
     font-weight: 500;
-    width: 350px;
+    width: 325px;
   }
 `;
 export const Paragraph = styled.p`
@@ -47,7 +47,7 @@ export const Paragraph = styled.p`
   ${mobile} {
     font-size: 16px;
     font-weight: 500;
-    width: 350px;
+    width: 325px;
   }
 `;
 
@@ -87,6 +87,12 @@ export const CardContainer = styled.div`
   flex-wrap: wrap;
   gap: 25px;
   width: 90%;
+  ${mobile} {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 0;
+  } 
 `;
 export const CardContainer2 = styled.div`
   display: flex;
@@ -112,14 +118,15 @@ export const Card = styled.div`
   transition: transform 1s ease;
 
   &:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
   }
   ${mobile} {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 670px;
-    width: 400px;
+    height: 650px;
+    width: 350px;
+    padding:0px;
   }
 `;
 

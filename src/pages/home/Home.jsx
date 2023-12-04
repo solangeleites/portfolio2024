@@ -12,12 +12,12 @@ const Home = () => {
       
   return (
     <>
-    <HomeContainer id='about'>
+    <HomeContainer id='about' >
 <ContainerRow>
       <Container >
             <Paragraph>Hola! Mi nombre es </Paragraph>
             <Name>Solange Leites Galván</Name>
-<div style={{color:'black', fontWeight:'800', fontSize:'35px'}}>
+<div style={{color:'black', fontWeight:'800', fontSize:'25px'}}>
 <TypeWriter 
       options={{
             strings:[

@@ -28,7 +28,7 @@ export const Input = styled.input`
   width: 350px;
 
   ${mobile} {
-    width: 250px;
+    width: 220px;
   }
 `;
 
@@ -41,7 +41,7 @@ export const TextArea = styled.textarea`
   width: 350px;
 
   ${mobile} {
-    width: 250px;
+    width: 220px;
   }
 `;
 
@@ -60,6 +60,6 @@ export const Button = styled.input`
     background-color: var(--verde);
   }
   ${mobile} {
-    width: 250px;
+    width: 220px;
   }
 `;

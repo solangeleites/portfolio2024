@@ -10,6 +10,7 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   position: fixed;
   z-index: 1;
+  
 `;
 export const Logo = styled.img`
   cursor: pointer;
@@ -25,4 +26,8 @@ export const LinkContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 500px;
+
+  ${mobile}{
+    display: none;
+  }
 `;

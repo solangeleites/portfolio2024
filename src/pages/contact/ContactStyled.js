@@ -23,6 +23,10 @@ gap: 25px;
 padding: 10px;
 border-radius: 10px;
 text-align: center;
+
+${mobile}{
+    width: 80%;
+}
 `
 export const Title = styled.h2`
 font-family: 'Raleway', sans-serif;

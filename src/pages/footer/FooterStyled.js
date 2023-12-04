@@ -9,10 +9,8 @@ export const Container = styled.div`
     height: 50px;
     border:1px solid lightgray;
 
-    ${mobile} {
-        height: 100px;
+    ${mobile}{
         width: 100%;
-        background-color: pink;
     }
 
 `

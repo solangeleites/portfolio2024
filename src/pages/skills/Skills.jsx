@@ -9,7 +9,7 @@ import {
   Paragraph,
   Title,
 } from './SkillsStyled';
-import {  SecondContainerSkills} from '../projects/ProjectsStyled';
+import { SecondContainerSkills } from '../projects/ProjectsStyled';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -22,14 +22,14 @@ import { SkillsFront } from '../../data/Proyectos';
 const Skills = () => {
   const data = SkillsFront;
   return (
-    <SecondContainerSkills id="skills">
+    <SecondContainerSkills id="skills" >
       <Title style={{ fontSize: '30px' }}>Mis Skills</Title>
       <ContainerRowStyled>
         <ContainerColumn>
           <Title>Frontend</Title>
 
           <ContainerColumnStyled>
-            <ContainerRowSkills>
+            <ContainerRowSkills  >
               <Swiper
                 slidesPerView={3}
                 spaceBetween={10}
@@ -43,8 +43,7 @@ const Skills = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                style={{zIndex:'0'}}
-
+                style={{ zIndex: '0', width:'100%' }}
               >
                 <SwiperSlide>
                   <ContainerRowSkills2>
@@ -118,11 +117,9 @@ const Skills = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                style={{zIndex:'0'}}
-
+                style={{ zIndex: '0' }}
               >
-                <SwiperSlide 
-                >
+                <SwiperSlide>
                   <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/node_mv7zue.svg" />
                     <Paragraph>NodeJS</Paragraph>
@@ -159,19 +156,19 @@ const Skills = () => {
                   </ContainerRowSkills2>
                 </SwiperSlide>
                 <SwiperSlide>
-                <ContainerRowSkills2>
+                  <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/php_oenlf2.svg" />
                     <Paragraph>Php</Paragraph>
                   </ContainerRowSkills2>
                 </SwiperSlide>
                 <SwiperSlide>
-                <ContainerRowSkills2>
+                  <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1701264530/mysql_adra3u.png" />
                     <Paragraph>MySQL</Paragraph>
                   </ContainerRowSkills2>
                 </SwiperSlide>
                 <SwiperSlide>
-                <ContainerRowSkills2>
+                  <ContainerRowSkills2>
                     <Image src="https://res.cloudinary.com/dgyubvlec/image/upload/v1701264530/docker_ndhri4.png" />
                     <Paragraph>Docker</Paragraph>
                   </ContainerRowSkills2>
