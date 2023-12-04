@@ -20,7 +20,7 @@ const Form = () => {
       alert('El campo mensaje es obligatorio');
     } else {
 
-    const url = "https://backendsolangeport.000webhostapp.com";
+    const url = "https://backendsolangeport.000webhostapp.com/";
 
     let data = new FormData();
     data.append("name", name);
@@ -30,10 +30,10 @@ const Form = () => {
 
     axios.post(url, data)
     .then(response => {
-      setSuccessMessage(response.data);
       setName('');
       setEmail('');
       setMsg('');
+      setSuccessMessage(response.data);
     })
     .catch(error => {
       console.error("Error al enviar el mensaje:", error.response.data);
