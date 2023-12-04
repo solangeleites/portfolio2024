@@ -70,7 +70,7 @@ const Form = () => {
         style={{ outline: 'none', borderTop: 'none', borderLeft: 'none' }}
         value={msg} onChange={(e) => setMsg(e.target.value)}
       ></TextArea>
-      <Input type='button' name='send' id='send'value='Enviar' onClick={handleSubmit} />
+      <Button type='button' name='send' id='send'value='Enviar' onClick={handleSubmit} />
       {successMessage && <p>{successMessage}</p>}
 
     </FormContainer>

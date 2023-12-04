@@ -56,3 +56,94 @@ export const Proyectos = [
         duration: "2 meses",
     }
 ]
+
+export const SkillsFront = [
+    {
+        id: 1,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850978/html_haynpc.svg",
+        title: "HTML",
+    },
+    {
+        id: 2,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850978/css_b6icv5.svg",
+        title: "CSS",
+    },
+    {
+        id:3,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/js_d4t8yk.svg",
+        title: "JavaScript",
+    },
+    {
+        id:4,
+        img:"https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/react_asmv9r.svg",
+        title: "React.Js",
+    },
+    {
+        id:5,
+        img:"https://res.cloudinary.com/dgyubvlec/image/upload/v1700850981/redux_q7oo16.svg",
+        title: "Redux",
+    },
+    {
+        id:6,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1701264840/materialui_l8qesn.png",
+        title: "Material UI",
+    },
+    {
+        id:7,
+        img: "ttps://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/php_oenlf2.svg",
+        title: "PHP",
+    },
+    {
+        id:8,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1701264531/wordpress_qqxlau.png",
+        title: "WordPress",
+    }
+]
+
+export const SkillsBack = [
+    {
+        id: 1,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/node_mv7zue.svg",
+        title: "Node.JS",
+    },
+    {
+        id: 2,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850978/express_lkoror.svg",
+        title: "Express",
+    },
+    {
+        id:3,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/mongo_xsufc5.svg",
+        title: "MongoDB",
+    },
+    {
+        id:4,
+        img:"https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/postgres_myicbe.svg",
+        title: "PostgreSQL",
+    },
+    {
+        id:5,
+        img:"https://res.cloudinary.com/dgyubvlec/image/upload/v1700850981/sequelize_ohac83.svg",
+        title: "Sequelize",
+    },
+    {
+        id:6,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850978/git_cjws0g.svg",
+        title: "GIT",
+    },
+    {
+        id:7,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1700850980/php_oenlf2.svg",
+        title: "PHP",
+    },
+    {
+        id:8,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1701264530/mysql_adra3u.png",
+        title: "MySQL",
+    },
+    {
+        id:9,
+        img: "https://res.cloudinary.com/dgyubvlec/image/upload/v1701264530/docker_ndhri4.png",
+        title: "Docker",
+    }
+]

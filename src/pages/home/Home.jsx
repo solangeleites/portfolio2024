@@ -35,8 +35,7 @@ const Home = () => {
   <ParagraphAboutMe>Aspiro a hacer una diferencia tangible en cada proyecto, buscando constantemente la mejora continua.</ParagraphAboutMe>
 
   <BtoDown href="../../assets/solange_leites_galvan_cv_noviembre.pdf" alt="Solange Leites Galván CV" download=""
-          >Descargar mi CV</
-        BtoDown>
+          >Descargar mi CV</BtoDown>
 </Container>
 
       <Container>

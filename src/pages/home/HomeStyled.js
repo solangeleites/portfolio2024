@@ -7,18 +7,26 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
+
 `;
 export const ContainerRow = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  ${mobile} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
 `;
 
 export const Image = styled.img`
   height: 350px;
   ${mobile} {
-    height: 200px;
+   display: none;
   }
 `;
 
@@ -76,6 +84,11 @@ export const Container = styled.div`
   height: 350px;
   width: 500px;
   gap: 20px;
+
+  ${mobile} {
+    padding: 0 20px;
+    width: 400px;
+  }
 
 `;
 export const SecondContainer = styled.div`

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { mobile } from '../../../queries/mediaQueries';
 
 export const FormContainer = styled.form`
   display: flex;
@@ -11,18 +12,11 @@ export const FormContainer = styled.form`
   background-color: var(--beige);
   color: var(--verde);
   border-radius: 20px;
-  /* @media (min-width: 768px) {
-        width: 50%;
-    }
-    @media (min-width: 1024px) {
-        width: 40%;
-    }
-    @media (min-width: 1440px) {
-        width: 30%;
-    }
-    @media (min-width: 1920px) {
-        width: 20%;
-    } */
+
+  ${mobile} {
+    width: 350px;
+    padding: 0px;
+  }
 `;
 
 export const Input = styled.input`
@@ -32,6 +26,10 @@ export const Input = styled.input`
   font-family: 'Raleway', sans-serif;
   height: 30px;
   width: 350px;
+
+  ${mobile} {
+    width: 250px;
+  }
 `;
 
 export const TextArea = styled.textarea`
@@ -41,9 +39,13 @@ export const TextArea = styled.textarea`
   font-family: 'Raleway', sans-serif;
   height: 90px;
   width: 350px;
+
+  ${mobile} {
+    width: 250px;
+  }
 `;
 
-export const Button = styled.button`
+export const Button = styled.input`
   border-radius: 10px;
   border: none;
   outline: none;
@@ -53,7 +55,11 @@ export const Button = styled.button`
   width: 350px;
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
-  &:hover {
+  transition: 0.5s ease-in-out;
+    &:hover {
     background-color: var(--verde);
+  }
+  ${mobile} {
+    width: 250px;
   }
 `;

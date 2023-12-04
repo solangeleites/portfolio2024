@@ -1,10 +1,17 @@
 import styled from 'styled-components';
 import { Container, ContainerRow } from '../home/HomeStyled';
+import { mobile } from '../../queries/mediaQueries';
 
 export const ContainerRowStyled = styled(Container)`
   flex-direction: row;
   align-items: center;
   width: 100%;
+
+  ${mobile} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const ContainerColumn = styled(ContainerRow)`
   flex-direction: column;
@@ -13,17 +20,11 @@ export const ContainerColumn = styled(ContainerRow)`
 `;
 export const ContainerColumnStyled = styled.div`
   width: 500px;
+
 `;
 export const ContainerRowSkills = styled.div`
-  /* width: 500px;
-  height: 300px;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 30px;
   width: 500px;
-
 `;
 export const ContainerRowSkills2 = styled.div`
   border-radius: 5px;

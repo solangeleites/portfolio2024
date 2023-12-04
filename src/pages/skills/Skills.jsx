@@ -1,5 +1,4 @@
 import React from 'react';
-import { SecondContainer } from '../projects/ProjectsStyled';
 import {
   ContainerColumn,
   ContainerRowStyled,
@@ -10,7 +9,7 @@ import {
   Paragraph,
   Title,
 } from './SkillsStyled';
-
+import {  SecondContainerSkills} from '../projects/ProjectsStyled';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,9 +17,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
+import { SkillsFront } from '../../data/Proyectos';
+
 const Skills = () => {
+  const data = SkillsFront;
   return (
-    <SecondContainer id="skills">
+    <SecondContainerSkills id="skills">
       <Title style={{ fontSize: '30px' }}>Mis Skills</Title>
       <ContainerRowStyled>
         <ContainerColumn>
@@ -179,7 +181,7 @@ const Skills = () => {
           </ContainerColumnStyled>
         </ContainerColumn>
       </ContainerRowStyled>
-    </SecondContainer>
+    </SecondContainerSkills>
   );
 };
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../queries/mediaQueries";
 
 export const Container = styled.div`
     display: flex;
@@ -7,7 +8,12 @@ export const Container = styled.div`
     align-items: center;
     height: 50px;
     border:1px solid lightgray;
-    width: 100%;
+
+    ${mobile} {
+        height: 100px;
+        width: 100%;
+        background-color: pink;
+    }
 
 `
 

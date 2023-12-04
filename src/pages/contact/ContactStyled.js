@@ -1,10 +1,17 @@
 import styled from "styled-components";
+import { mobile } from "../../queries/mediaQueries";
 
 export const Container = styled.div`
 display: flex;
 justify-content: space-around;
 align-items: baseline;
 padding: 50px 0;
+${mobile}{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 `;
 
 export const ContainerRow = styled.div`
