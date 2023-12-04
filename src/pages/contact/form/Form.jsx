@@ -19,6 +19,7 @@ const Form = () => {
     } else if (msg.length === 0){
       alert('El campo mensaje es obligatorio');
     } else {
+
     const url = "https://backendsolangeport.000webhostapp.com/";
 
     let data = new FormData();
@@ -34,10 +35,12 @@ const Form = () => {
       setEmail('');
       setMsg('');
     })
-.catch(error => {
-    console.error("Error al enviar el mensaje:", error.response.data);
-    alert("Error al enviar el mensaje. Consulta la consola para más detalles.");    }
-    );
+    .catch(error => {
+      console.error("Error al enviar el mensaje:", error.response.data);
+      alert("Error al enviar el mensaje. Consulta la consola para más detalles.");
+    });
+  }
+}
 
 
   return (
@@ -72,35 +75,5 @@ const Form = () => {
       {successMessage && <p>{successMessage}</p>}
 
     </FormContainer>
-  );
-};
-
-export default Form;
-  // const [fields, setFields] = useState({});
-
-  // const onSubmit = async (e) => {
-  //   e.preventDefault();
-  //   console.log(fields);
-  //   try {
-  //     const contact = await createUser(fields.name, fields.email, fields.msg);
-  //     console.log(contact);
-  //     if (contact) {
-  //       dispatch(
-  //         setCurrentUser({
-  //           ...contact
-  //         })
-  //       );
-  //       console.log('Usuario registrado con éxito:', contact);
-  //     }
-  //   } catch (error) {
-  //     console.log('Error al registrar usuario:', error);
-  //   }
-  // };
-
-  // const onChange = async (e) => {
-  //   setFields({
-  //     ...fields,
-  //     [e.target.name]: e.target.value,
-  //   });
-  //   console.log(e.target.value);
-  // };
+  )
+    };
