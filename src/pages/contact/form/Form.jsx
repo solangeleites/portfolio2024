@@ -76,3 +76,4 @@ const Form = () => {
     </FormContainer>
   )
     };
+export default Form;

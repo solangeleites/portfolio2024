@@ -1,8 +1,5 @@
 import React from 'react';
 import { ContainerRow, Container, Title, Paragraph } from './ContactStyled';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { MdAlternateEmail } from 'react-icons/md';
 
 import Form from './form/Form';
 import Email from '../../components/UI/email/Email';
