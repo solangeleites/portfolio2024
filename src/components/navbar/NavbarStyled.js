@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import { tablet, mobile } from '../../queries/mediaQueries';
 
 export const NavbarContainer = styled.nav`
-  height: 80px;
+  height: 82px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
   z-index: 1;
-    box-shadow: 0px 1px 3px black;
+  box-shadow: 0px 1px 50px grey;
   
 `;
 export const Logo = styled.img`
