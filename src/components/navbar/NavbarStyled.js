@@ -10,6 +10,7 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   position: fixed;
   z-index: 1;
+    box-shadow: 0px 1px 3px black;
   
 `;
 export const Logo = styled.img`
