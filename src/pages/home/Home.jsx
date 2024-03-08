@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeContainer, Image, Paragraph, Title, BtoDown, Container, ContainerRow, Subtitle, SecondContainer, CardContainer, Card, Name, ParagraphAboutMe } from './HomeStyled'
+import { HomeContainer, Image, Paragraph, Title, BtnDown, Container, ContainerRow, Subtitle, SecondContainer, CardContainer, Card, Name, ParagraphAboutMe } from './HomeStyled'
 import { Link as ScrollLink } from 'react-scroll';
 import Projects from '../projects/Projects';
 import Contact from '../contact/Contact';
@@ -31,10 +31,10 @@ const Home = () => {
 />
 </div>
 
-  <ParagraphAboutMe>Mi enfoque es crecer profesionalmente de manera continua y amoldarme a entornos que cambian rápidamente.</ParagraphAboutMe>
-  <ParagraphAboutMe>Aspiro a hacer una diferencia tangible en cada proyecto, buscando constantemente la mejora continua.</ParagraphAboutMe>
+  <ParagraphAboutMe>Desde que descubrí este mundo me enfoco constantemente en aprender, buscando crecer profesionalmente, amoldándome a un entorno en constante evolución.</ParagraphAboutMe>
+  <ParagraphAboutMe>Aspiro a generar una diferencia tangible en todos los proyectos que participe, optimizando cada línea de código, desarrollando con coherencia y armonía, logrando así el resultado que mejor se adapte a las necesidades de cada cliente.</ParagraphAboutMe>
 
-  <BtoDown href="../../assets/SOLANGE_LEITES_GALVAN_CV_DICIEMBRE.pdf" alt="Solange_Leites_Galván_CV" download="Solange_leites_galvan_CV.pdf">Descargar mi CV</BtoDown>
+  <BtnDown href="https://drive.google.com/file/d/1UANRmx6pIJzrJ7qTLep9EJ800nV3ELm6/view?usp=sharing" alt="Solange_Leites_Galván_CV" target='_blank'>Descargar mi CV</BtnDown>
 </Container>
 
       <Container>

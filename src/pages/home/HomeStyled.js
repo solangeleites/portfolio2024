@@ -58,6 +58,7 @@ export const ParagraphAboutMe = styled.p`
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 18px;
+  width: 700px;
   ${mobile} {
     font-size: 16px;
     font-weight: 500;
@@ -66,7 +67,7 @@ export const ParagraphAboutMe = styled.p`
 `
 
 
-export const BtoDown = styled.a`
+export const BtnDown = styled.a`
   padding: 15px 20px;
   width: 200px;
   border-radius: 10px;
@@ -93,7 +94,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   height: 350px;
-  width: 500px;
+  width: 700px;
   gap: 20px;
 
   ${mobile} {
